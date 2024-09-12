@@ -29,8 +29,8 @@ require_once('common.php');
                 <span class="icon-bar"></span>
             </button>
 
-            <a class="navbar-brand" href='main.php'><img id="login_header_logo" src="images/postbox.png"
-                                                         alt="Logo"/></a>
+            <a class="navbar-brand" href='main.php'><img id="login_header_logo" src="images/kanisius/postfix-blue.svg"
+                                                         alt="Logo" style="max-height:100%;"/></a>
 
         </div>
     </div>

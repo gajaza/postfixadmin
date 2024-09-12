@@ -35,9 +35,9 @@ if (file_exists (realpath ("../".$CONF['theme_css']))) {
 <?php
 if (file_exists (realpath ("../".$CONF['theme_logo'])))
 {
-    print "<img id=\"login_header_logo\" src=\"../".htmlentities($CONF['theme_logo'])."\" />\n";
+    print "<img id=\"login_header_logo\" src=\"../".htmlentities($CONF['theme_logo'])."\" style='max-height:100%;'/>\n";
 } else {
-    print "<img id=\"login_header_logo\" src=\"".htmlentities($CONF['theme_logo'])."\" />\n";
+    print "<img id=\"login_header_logo\" src=\"".htmlentities($CONF['theme_logo'])."\" style='max-height:100%;'/>\n";
 }
 
 if (($CONF['show_header_text'] == "YES") and ($CONF['header_text']))

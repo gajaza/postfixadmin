@@ -2,7 +2,7 @@
     <div class="container">
         <div class="navbar-header">
             <a class="navbar-brand" href='main.php'><img id="login_header_logo" src="{$CONF.theme_logo}"
-                                                         alt="Logo"/></a>
+                                                         alt="Logo" style="max-height:100%;"/></a>
             {if $CONF.show_header_text==='YES' && $CONF.header_text}
                 <h2>{$CONF.header_text}</h2>
             {/if}

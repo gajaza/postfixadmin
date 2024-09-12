@@ -19,8 +19,8 @@
                     <span class="icon-bar"></span>
                 </button>
                 {*** <a class="navbar-brand" href='main.php'><img id="login_header_logo" src="{$CONF.theme_logo}" alt="Logo" /></a> ***}
-                <a class="navbar-brand" href='main.php'><img id="login_header_logo" src="images/postbox.png"
-                                                             alt="Logo"/></a>
+                <a class="navbar-brand" href='main.php'><img id="login_header_logo" src="images/kanisius/main-blue.svg"
+                                                             alt="Logo" style="max-height:100%;"/></a>
             </div>
             <div id="navbar" class="collapse navbar-collapse">
                 <ul class="nav navbar-nav">
